@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 def home(request):
     context = {
-        'context_var': 'I am from home view;'
+        'context_var': 'I am from home view of Django Application'
         }
     return render(request, 'home.html', context)
